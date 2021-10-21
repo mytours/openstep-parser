@@ -57,6 +57,6 @@ setup(
     version=find_version("openstep_parser", "__init__.py"),
     license='BSD License',
     packages=find_packages(exclude=['tests']),
-    setup_requires=['nose', 'coverage'],
-    cmdclass={'test': NoseTestCommand, 'coverage': NoseTestCoverage}
+    setup_requires=[],
+    cmdclass={}
 )
